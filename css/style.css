@@ -756,7 +756,7 @@ path.is-visible {
   }
 
   .modal {
-    padding-top: 13%;
+    padding-top: 10%;
   }
 
   .modal-content {
@@ -866,6 +866,10 @@ path.is-visible {
 
   .p-container {
     width: 85%;
+  }
+
+  .modal {
+    padding-top: 13%;
   }
 
   .project {
