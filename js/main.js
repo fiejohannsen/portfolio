@@ -66,7 +66,7 @@ function isElementInViewport(el) {
 
 
 // MODALS
-var modalBtns = [...document.querySelectorAll(".button")];
+var modalBtns = [...document.querySelectorAll(".modal-btn")];
 modalBtns.forEach(function(btn) {
   btn.onclick = function() {
     var modal = btn.getAttribute('data-modal');
