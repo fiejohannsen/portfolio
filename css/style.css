@@ -479,8 +479,8 @@ path.is-visible {
   font-size: 28px;
   font-weight: bold;
   z-index: 10;
-  position: sticky;
-  right: 0;
+  position: fixed;
+  right: 2%;
   top: 0;
 }
 
@@ -771,15 +771,15 @@ path.is-visible {
   .text-container2 {
     width: 100%;
     height: auto;
-    justify-content: flex-start;
     padding-right: 4%;
+    display: block;
   }
 
   .img-container2 {
     width: 100%;
-    align-items: flex-start;
     margin-top: 2%;
     padding-bottom: 5%;
+    display: block;
   }
 
   .img-container2>img {
