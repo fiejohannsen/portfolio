@@ -859,6 +859,10 @@ path.is-visible {
 }
 
 @media screen and (max-width: 600px) {
+  .close {
+    right: 2%;
+  }
+
   .h1-container {
     top: 2%;
   }
