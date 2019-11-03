@@ -479,8 +479,8 @@ path.is-visible {
   font-weight: bold;
   z-index: 10;
   position: fixed;
-  right: 3%;
-  top: 7%;
+  right: 0.5%;
+  top: 0.5%;
   width: 30px;
   height: 30px;
 }
@@ -755,10 +755,6 @@ path.is-visible {
     width: 45%;
   }
 
-  .close {
-    top: 8%;
-  }
-
   .modal {
     padding-top: 10%;
   }
@@ -774,6 +770,10 @@ path.is-visible {
 
   .graphics-img-container>img {
     width: 60%;
+  }
+
+  .tabcontent, .tabcontent2 {
+    height: auto;
   }
 
   #Mobile>img {
@@ -825,11 +825,6 @@ path.is-visible {
 
   .project {
     margin: 0.2%;
-  }
-
-  .close {
-    right: 3%;
-    top: 10%;
   }
 
   .modal {
@@ -899,5 +894,63 @@ path.is-visible {
 
   .contact-img-container>img:hover {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .tabbar>a {
+    font-size: 1em;
+    margin: 30px;
+  }
+
+  #portfolio {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .modal-content {
+    height: 75vh;
+  }
+
+  .text-container2 {
+    font-size: 14px;
+  }
+
+  .p-container {
+    font-size: 14px;
+  }
+
+  .contact-wrapper {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .h1-container>h1 {
+    font-size: 375px;
+  }
+
+  #portfolio {
+    width: 75%;
+  }
+
+  .modal-content {
+    width: 75%;
+    height: 80vh;
+  }
+
+  .contact-text-container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #portfolio {
+    width: 50%;
+  }
+
+  .modal-content {
+    width: 60%;
+    height: 70vh;
   }
 }
